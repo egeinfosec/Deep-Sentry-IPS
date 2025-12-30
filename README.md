@@ -28,8 +28,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install torch torchvision scapy pandas numpy scikit-learn
 ```
-🧠 Training the Brain
-The model was trained on live traffic captured from the device:
+🧠 Training the Brain The model was trained on live traffic captured from the device:
 
 Benign Data: Captured normal background web traffic (normal.pcap).
 
@@ -37,8 +36,7 @@ Malicious Data: Captured nmap -sS and nmap -A scans (attack.pcap).
 
 Training: The model achieved high accuracy in distinguishing normal packets from scan probes.
 
-🛡️ Usage
-To start the Intrusion Prevention System:
+🛡️ Usage To start the Intrusion Prevention System:
 
 Bash
 
