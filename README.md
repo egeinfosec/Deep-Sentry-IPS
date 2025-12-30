@@ -52,4 +52,4 @@ Plaintext
 ⚠️ Note on Connectivity: Since the attack was launched from the same machine used for SSH (192.168.1.66), the IPS correctly identified the threat and severed the connection immediately. This confirms the firewall rule was applied in real-time.
 
 👨‍💻 Author
-[Your Name]
+egeinfosec
