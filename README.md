@@ -40,9 +40,9 @@ Training: The model achieved high accuracy in distinguishing normal packets from
 ## 🛡️ Usage
 To start the Intrusion Prevention System:
 
-Bash
-
+```bash
 sudo ./venv/bin/python ips.py
+```
 Verification
 When an attack is launched from a non-whitelisted IP (e.g., 192.168.1.66), the system detects and blocks it immediately:
 
