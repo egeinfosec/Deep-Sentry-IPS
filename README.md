@@ -27,6 +27,7 @@ mkdir ~/deep-sentry && cd ~/deep-sentry
 python3 -m venv venv
 source venv/bin/activate
 pip install torch torchvision scapy pandas numpy scikit-learn
+```
 🧠 Training the Brain
 The model was trained on live traffic captured from the device:
 
