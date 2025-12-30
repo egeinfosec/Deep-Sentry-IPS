@@ -47,7 +47,6 @@ Verification
 When an attack is launched from a non-whitelisted IP (e.g., 192.168.1.66), the system detects and blocks it immediately:
 
 ```Plaintext
-
 [!] Detection: 192.168.1.66 (Confidence: 1.00)
 [!!!] BLOCKING MALICIOUS IP: 192.168.1.66
 ```
