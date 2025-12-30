@@ -46,10 +46,11 @@ sudo ./venv/bin/python ips.py
 Verification
 When an attack is launched from a non-whitelisted IP (e.g., 192.168.1.66), the system detects and blocks it immediately:
 
-Plaintext
+```Plaintext
 
 [!] Detection: 192.168.1.66 (Confidence: 1.00)
 [!!!] BLOCKING MALICIOUS IP: 192.168.1.66
+```
 ⚠️ Note on Connectivity: Since the attack was launched from the same machine used for SSH (192.168.1.66), the IPS correctly identified the threat and severed the connection immediately. This confirms the firewall rule was applied in real-time.
 
 ## 👨‍💻 Author
