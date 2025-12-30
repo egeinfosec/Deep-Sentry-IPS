@@ -13,7 +13,7 @@
 3.  **AI Inference:** A PyTorch Deep Learning model analyzes the traffic.
 4.  **Active Defense:** If Confidence > 80%, the source IP is banned via `iptables`.
 
-## 🚀 Installation & Setup
+##🚀 Installation & Setup
 
 ### 1. Requirements
 * Raspberry Pi 5 (running Kali Linux)
@@ -28,7 +28,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install torch torchvision scapy pandas numpy scikit-learn
 ```
-🧠 Training the Brain
+##🧠 Training the Brain
 The model was trained on live traffic captured from the device:
 
 Benign Data: Captured normal background web traffic (normal.pcap).
@@ -37,7 +37,7 @@ Malicious Data: Captured nmap -sS and nmap -A scans (attack.pcap).
 
 Training: The model achieved high accuracy in distinguishing normal packets from scan probes.
 
-🛡️ Usage
+##🛡️ Usage
 To start the Intrusion Prevention System:
 
 Bash
